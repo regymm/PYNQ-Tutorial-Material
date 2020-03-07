@@ -1,0 +1,3 @@
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+$stop called at time : 102 ns : File "/home/petergu/MyHome/Working/PYNQ-Tutorial/ip_test_and_bd/ip_test_and_bd.srcs/sim_1/new/bdtest.v" Line 36

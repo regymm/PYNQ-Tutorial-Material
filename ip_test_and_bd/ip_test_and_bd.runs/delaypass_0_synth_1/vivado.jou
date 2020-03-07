@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:47:09 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Tue Mar  3 17:34:23 2020
+# Process ID: 2329806
+# Current directory: /home/petergu/MyHome/Working/PYNQ-Tutorial/ip_test_and_bd/ip_test_and_bd.runs/delaypass_0_synth_1
+# Command line: vivado -log delaypass_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source delaypass_0.tcl
+# Log file: /home/petergu/MyHome/Working/PYNQ-Tutorial/ip_test_and_bd/ip_test_and_bd.runs/delaypass_0_synth_1/delaypass_0.vds
+# Journal file: /home/petergu/MyHome/Working/PYNQ-Tutorial/ip_test_and_bd/ip_test_and_bd.runs/delaypass_0_synth_1/vivado.jou
+#-----------------------------------------------------------
+source delaypass_0.tcl -notrace

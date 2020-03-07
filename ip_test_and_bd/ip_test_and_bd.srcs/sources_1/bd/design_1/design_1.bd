@@ -1,0 +1,162 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0x2E353F3EB65D3B7A",
+      "device": "xc7a12ticsg325-1L",
+      "name": "design_1",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2019.1",
+      "validated": "true"
+    },
+    "design_tree": {
+      "c_addsub_0": "",
+      "mult_gen_0": "",
+      "delaypass_0": ""
+    },
+    "ports": {
+      "A": {
+        "direction": "I",
+        "left": "31",
+        "right": "0"
+      },
+      "B": {
+        "direction": "I",
+        "left": "31",
+        "right": "0"
+      },
+      "C": {
+        "direction": "I",
+        "left": "31",
+        "right": "0"
+      },
+      "clk": {
+        "type": "clk",
+        "direction": "I",
+        "parameters": {
+          "CLK_DOMAIN": {
+            "value": "design_1_clk",
+            "value_src": "default"
+          },
+          "FREQ_HZ": {
+            "value": "100000000"
+          },
+          "INSERT_VIP": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "PHASE": {
+            "value": "0.000",
+            "value_src": "default"
+          }
+        }
+      },
+      "O": {
+        "direction": "O",
+        "left": "31",
+        "right": "0",
+        "parameters": {
+          "LAYERED_METADATA": {
+            "value": "xilinx.com:interface:datatypes:1.0 {DATA {datatype {name {attribs {resolve_type immediate dependency {} format string minimum {} maximum {}} value data} bitwidth {attribs {resolve_type generated dependency bitwidth format long minimum {} maximum {}} value 32} bitoffset {attribs {resolve_type immediate dependency {} format long minimum {} maximum {}} value 0} integer {signed {attribs {resolve_type generated dependency signed format bool minimum {} maximum {}} value TRUE}}}} DATA_WIDTH 32}",
+            "value_src": "ip_prop"
+          }
+        }
+      }
+    },
+    "components": {
+      "c_addsub_0": {
+        "vlnv": "xilinx.com:ip:c_addsub:12.0",
+        "xci_name": "design_1_c_addsub_0_0",
+        "parameters": {
+          "A_Width": {
+            "value": "32"
+          },
+          "B_Value": {
+            "value": "00000000000000000000000000000000"
+          },
+          "B_Width": {
+            "value": "32"
+          },
+          "Latency": {
+            "value": "1"
+          },
+          "Out_Width": {
+            "value": "32"
+          }
+        }
+      },
+      "mult_gen_0": {
+        "vlnv": "xilinx.com:ip:mult_gen:12.0",
+        "xci_name": "design_1_mult_gen_0_0",
+        "parameters": {
+          "OutputWidthHigh": {
+            "value": "31"
+          },
+          "PortAWidth": {
+            "value": "32"
+          },
+          "PortBWidth": {
+            "value": "32"
+          },
+          "Use_Custom_Output_Width": {
+            "value": "true"
+          }
+        }
+      },
+      "delaypass_0": {
+        "vlnv": "user.org:user:delaypass:1.0",
+        "xci_name": "design_1_delaypass_0_0",
+        "parameters": {
+          "W": {
+            "value": "32"
+          }
+        }
+      }
+    },
+    "nets": {
+      "c_addsub_0_S": {
+        "ports": [
+          "c_addsub_0/S",
+          "mult_gen_0/A"
+        ]
+      },
+      "delaypass_0_dout": {
+        "ports": [
+          "delaypass_0/dout",
+          "mult_gen_0/B"
+        ]
+      },
+      "clk_1": {
+        "ports": [
+          "clk",
+          "c_addsub_0/CLK",
+          "mult_gen_0/CLK",
+          "delaypass_0/clk"
+        ]
+      },
+      "mult_gen_0_P": {
+        "ports": [
+          "mult_gen_0/P",
+          "O"
+        ]
+      },
+      "A_1": {
+        "ports": [
+          "A",
+          "c_addsub_0/A"
+        ]
+      },
+      "B_1": {
+        "ports": [
+          "B",
+          "c_addsub_0/B"
+        ]
+      },
+      "C_1": {
+        "ports": [
+          "C",
+          "delaypass_0/din"
+        ]
+      }
+    }
+  }
+}

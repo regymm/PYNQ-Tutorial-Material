@@ -1,0 +1,8 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/petergu/MyHome/Working/PYNQ-Tutorial/ip_test_and_bd/ip_test_and_bd.ip_user_files/bd/design_1/ipshared/8f7c/delaypass.srcs/sources_1/new/delaypass.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module delaypass
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/petergu/MyHome/Working/PYNQ-Tutorial/ip_test_and_bd/ip_test_and_bd.ip_user_files/bd/design_1/ip/design_1_delaypass_0_0/sim/design_1_delaypass_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_delaypass_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/petergu/MyHome/Working/PYNQ-Tutorial/ip_test_and_bd/ip_test_and_bd.ip_user_files/bd/design_1/sim/design_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/petergu/MyHome/Working/PYNQ-Tutorial/ip_test_and_bd/ip_test_and_bd.srcs/sim_1/new/bdtest.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bdtest

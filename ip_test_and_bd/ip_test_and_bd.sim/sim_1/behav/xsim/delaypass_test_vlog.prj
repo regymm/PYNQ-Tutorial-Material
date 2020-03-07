@@ -1,0 +1,11 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../ip_test_and_bd.srcs/sources_1/ip/delaypass_0/delaypass.srcs/sources_1/new/delaypass.v" \
+"../../../../ip_test_and_bd.srcs/sources_1/ip/delaypass_0/sim/delaypass_0.v" \
+"../../../../ip_test_and_bd.srcs/sim_1/new/delaypass_test.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
