@@ -12,3 +12,5 @@ Tutorial series:
 - Custom IP core and the Block Design: [Here](http://www.ustcpetergu.com/MyBlog/tutorial/2020/02/20/pynq-3-ip-bd.html), using project `delaypass` and `ip_test_and_bd`.
 
 - Painless PS/PL communication: Coming soon. 
+
+These projects are directly added to git(not using tcl scripts) and can be opened directly. 
