@@ -7,7 +7,7 @@ Tutorial series:
 
 - Unboxing & Setup: [Here](https://www.ustcpetergu.com/MyBlog/tutorial/2020/02/03/pynq-unboxing.html).
 
-- Overlay: [Here](httsp://www.ustcpetergu.com/MyBlog/tutorial/2020/02/06/pynq-2-overlay.html).
+- Overlay: [Here](https://www.ustcpetergu.com/MyBlog/tutorial/2020/02/06/pynq-2-overlay.html).
 
 - Custom IP core and the Block Design: [Here](https://www.ustcpetergu.com/MyBlog/tutorial/2020/03/07/pynq-3-ip-bd.html), using project `delaypass` and `ip_test_and_bd`.
 
